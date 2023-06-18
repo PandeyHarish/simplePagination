@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="pagination">
-            <button class="btn1" onclick="backBtn()"><img src="448-arrow.png" > prev</button>
+            <button class="btn1" onclick="backBtn()"><img src="448-arrow.png"> prev</button>
             <ul>
                 <li class="link active" value="1" onclick="activeLink()">1</li>
                 <li class="link" value="2" onclick="activeLink()">2</li>
@@ -19,7 +21,7 @@
                 <li class="link" value="5" onclick="activeLink()">5</li>
                 <li class="link" value="6" onclick="activeLink()">6</li>
             </ul>
-            <button class="btn2" onclick="nextBtn()">next <img src="448-arrow.png" ></button>
+            <button class="btn2" onclick="nextBtn()">next <img src="448-arrow.png"></button>
         </div>
     </div>
 
@@ -27,6 +29,8 @@
 
 
 
+
     <script src="index.js"></script>
 </body>
+
 </html>
